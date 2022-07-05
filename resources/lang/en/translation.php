@@ -83,7 +83,7 @@ return [
   "Blog_Details" => "Blog Details",
   "Pages" => "Pages",
   "Authentication" => "Authentication",
-  "Login" => "Login",
+ "Login" => "Login",
   "Register" => "Register",
   "Recover_Password" => "Recover Password",
   "Lock_Screen" => "Lock Screen",

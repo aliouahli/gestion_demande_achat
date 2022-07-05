@@ -11,7 +11,7 @@ class DA extends Model
     protected $table='da';
     protected $fillable=[
         
-        'numerodemande',
+        
            'reference',
            'designation',
         'quantite',

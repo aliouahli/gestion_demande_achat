@@ -11,7 +11,7 @@ class DaController extends Controller
     public function insert(Request $request){
 
     $demande=new Da();
-    $demande->numerodemande=$request->input('numerodemande');
+    
 
     $demande->designation=$request->input('designation');
     $demande->reference=$request->input('reference');

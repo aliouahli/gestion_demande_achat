@@ -49,7 +49,7 @@
                         <tbody>
                         @foreach ($im as $item)
                             <tr>
-                                <td>{{$item->numerodemande}}</td>
+                                <td>{{$item->id}}</td>
                                 <td>{{$item->designation}}</td>
                                 <td>{{$item->quantite}}</td>
                                 <td>{{$item->reference}}</td>

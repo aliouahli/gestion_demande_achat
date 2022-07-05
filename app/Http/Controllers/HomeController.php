@@ -20,7 +20,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+            //$this->middleware('auth');
     }
 
     /**
@@ -42,7 +42,7 @@ class HomeController extends Controller
         return view('index');
     }
 
-    /*Language Translation*/
+    /*Language Translation
     public function lang($locale)
     {
         if ($locale) {
@@ -54,8 +54,8 @@ class HomeController extends Controller
             return redirect()->back();
         }
     }
-
-    public function updateProfile(Request $request, $id)
+    */
+    /*public function updateProfile(Request $request, $id)
     {
         // return $request->all();
         $request->validate([
@@ -130,5 +130,5 @@ class HomeController extends Controller
                 ], 200); // Status code here
             }
         }
-    }
+       }*/
 }

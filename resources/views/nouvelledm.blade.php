@@ -15,7 +15,7 @@
     @endcomponent
     <?php 
    Use App\Http\Controllers\HomeController;
-   use App\Models\Syndicat;
+   use App\Models\Da;
   
   
    $im = DB::table('da')->get()->last() ;
@@ -28,7 +28,7 @@
                         @csrf
                         <div class="mb-3">
                             <label for="formrow-numero-input" class="form-label">Numero Demande</label>
-                            <input type="text" class="form-control" id="formrow-f-input" name='numerodemande' value=<?php echo $im->numerodemande; ?> readonly='true'>
+                            <input type="text" class="form-control" id="formrow-f-input" name='numerodemande' value=<?php echo $im->id; ?> readonly='true'>
                         </div>
 
                         <div class="mb-3">

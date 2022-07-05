@@ -38,7 +38,7 @@
                         </li>
 
                         <li>
-                            <a href="propriete" 
+                            <a href="encoursdm" 
                                 key="t-horizontal"> En cours</a>
                          
                         </li>

@@ -15,7 +15,7 @@ class CreateDaTable extends Migration
     {
         Schema::create('da', function (Blueprint $table) {
             $table->id();
-            $table->increments('numerodemande');
+       
             $table->string('reference');
             $table->string('designation');
             $table->Integer('quantite');

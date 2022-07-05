@@ -31,7 +31,7 @@
                             <div class="avatar-md profile-user-wid mb-4">
                                 <img src="{{ isset(Auth::user()->avatar) ? asset(Auth::user()->avatar) : asset('/assets/images/users/avatar-1.jpg') }}" alt="" class="img-thumbnail rounded-circle">
                             </div>
-                            <h5 class="font-size-15 text-truncate">{{ Str::ucfirst(Auth::user()->name) }}</h5>
+                            <h5 class="font-size-15 text-truncate"></h5>
                             
                         </div>
 
